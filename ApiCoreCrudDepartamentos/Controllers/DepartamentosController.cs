@@ -59,7 +59,7 @@ namespace ApiCoreCrudDepartamentos.Controllers
             return Ok();
         }
 
-        //SI LO NECESITAMOS, PODEMOS COMBINAR OBJETOS CON PARAMETROS.  EL OBJETO ES EL ULTIMO ELEMENTO QUE SE INCLUYE EN LA PETICION DEL METODO
+        //SI LO NECESITAMOS, PODEMOS COMBINAR OBJETOS CON PARAMETROS. EL OBJETO ES EL ULTIMO ELEMENTO QUE SE INCLUYE EN LA PETICION DEL METODO
         [HttpPut]
         [Route("[action]/{id}")]
         public async Task<ActionResult> PutDepartamento(int id, Departamento departamento)
